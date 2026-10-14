@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Query China A-share stock quotes, order book, K-line history, intraday data, major indices and company info via the open-source AKShare library. Public data, no API key.",
   "author": {
-    "name": "manifoldor"
+    "name": "yishan"
   },
   "keywords": [
     "akshare",

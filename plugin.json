@@ -4,7 +4,7 @@
   "displayName": "AKShare A股行情查询",
   "version": "1.0.0",
   "description": "基于 AKShare 接口的 A 股股票价格查询与行情分析 Grokbot 插件，支持 A 股实时股价、五档买卖盘口、历史 K 线、分时走势、大盘指数及个股基础信息查询。",
-  "author": "manifoldor",
+  "author": "yishan",
   "license": "MIT",
   "keywords": [
     "akshare",
