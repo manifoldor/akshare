@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "akshare",
+  "displayName": "AKShare A股行情查询",
+  "version": "1.0.0",
+  "description": "基于 AKShare 接口的 A 股股票价格查询与行情分析 Grokbot 插件，支持 A 股实时股价、五档买卖盘口、历史 K 线、分时走势、大盘指数及个股基础信息查询。",
+  "author": "ethan",
+  "license": "MIT",
+  "keywords": [
+    "akshare",
+    "a-share",
+    "stock",
+    "stock-price",
+    "finance",
+    "kline",
+    "grokbot",
+    "mcp"
+  ],
+  "suggestedPrompts": [
+    "查询贵州茅台(600519)的实时股价与五档买卖盘口",
+    "查看宁德时代(300750)最近30个交易日的日K线走势与涨跌幅",
+    "获取上证指数、深证成指与创业板指的大盘最新行情"
+  ]
+}
