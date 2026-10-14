@@ -21,5 +21,6 @@
   "repository": "https://github.com/manifoldor/akshare",
   "homepage": "https://sibox.org",
   "license": "MIT",
-  "logo": "assets/logo.png"
+  "logo": "assets/logo.png",
+  "publisher": "manifoldor"
 }
