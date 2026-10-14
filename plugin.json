@@ -20,5 +20,8 @@
     "查询贵州茅台(600519)的实时股价与五档买卖盘口",
     "查看宁德时代(300750)最近30个交易日的日K线走势与涨跌幅",
     "获取上证指数、深证成指与创业板指的大盘最新行情"
-  ]
+  ],
+  "repository": "https://github.com/manifoldor/akshare",
+  "homepage": "https://sibox.org",
+  "logo": "assets/logo.png"
 }

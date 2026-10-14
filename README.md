@@ -33,6 +33,9 @@
 
 ```text
 AKShare/
+├── .cursor-plugin/plugin.json  # 插件清单（Agent Plugins）
+├── assets/logo.png             # 插件图标
+├── LICENSE
 ├── plugin.json                 # Grokbot / Agent Plugins 标准元数据清单
 ├── mcp.json                    # Model Context Protocol 服务注册配置
 ├── mcp_config.json             # 兼容配置
@@ -130,6 +133,27 @@ ln -s /path/to/AKShare ~/.grok/plugins/akshare
 
 ---
 
-## 📄 许可证
+## 📊 数据来源 / Data Source
 
-本项目基于 [MIT License](LICENSE) 开源。数据来源于公开网络财经接口，仅供技术研究与个人参考，不构成任何投资建议。
+本插件通过开源 Python 库 [AKShare](https://github.com/akfamily/akshare)（[文档](https://akshare.akfamily.xyz/)，MIT 许可证）获取公开财经数据，无需登录或 API Key。行情数据归各原始数据提供方所有；感谢 AKShare 项目及其贡献者。本插件为独立项目，与 AKShare 官方无隶属关系。
+
+## ⚠️ 免责声明 / Disclaimer
+
+数据仅供参考，可能存在延迟或错误，不构成任何投资建议。投资有风险，决策需谨慎。
+
+Data is for reference only, may be delayed or inaccurate, and is not investment advice.
+
+---
+
+## English
+
+**akshare** is a Grok Bot / Agent Plugins MCP plugin for China A-share market data: real-time quotes with 5-level order book, daily/weekly/monthly K-line history (qfq/hfq), intraday ticks, major indices (SSE, SZSE, ChiNext, STAR 50, CSI 300), stock search by name or code, and basic company info (market cap, P/E, P/B, industry).
+
+- **Tools:** `get_stock_quote`, `get_stock_history`, `get_stock_intraday`, `get_index_quote`, `search_stock`, `get_stock_info`
+- **Install:** Python 3.10+; `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`; the MCP server is started by `run_server.py` (see `mcp.json`).
+- **Data source:** the open-source [AKShare](https://github.com/akfamily/akshare) library (MIT), which aggregates public financial websites. No login or API key. This plugin is independent and not affiliated with the AKShare project.
+- **Tests:** `.venv/bin/pip install pytest && .venv/bin/python -m pytest tests`
+
+## 📄 许可证 / License
+
+本项目基于 [MIT License](LICENSE) 开源。AKShare 本身同样以 MIT 许可证发布。

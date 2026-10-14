@@ -1,0 +1,25 @@
+{
+  "name": "akshare",
+  "displayName": "AKShare A股行情查询",
+  "version": "1.0.0",
+  "description": "Query China A-share stock quotes, order book, K-line history, intraday data, major indices and company info via the open-source AKShare library. Public data, no API key.",
+  "author": {
+    "name": "manifoldor"
+  },
+  "keywords": [
+    "akshare",
+    "a-share",
+    "stock",
+    "stock-price",
+    "finance",
+    "kline",
+    "china",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/",
+  "repository": "https://github.com/manifoldor/akshare",
+  "homepage": "https://sibox.org",
+  "license": "MIT",
+  "logo": "assets/logo.png"
+}
